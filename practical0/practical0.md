@@ -70,7 +70,7 @@ Perform various arithmetic operations on your student number.
 Student Number : 12230289
 Digit Sum : 27
 Odd / Even : Odd
-Remainder (% 7) : 0
+Remainder (% 7) : 1
 Multiplied by 3 : 36690867
 ```
 
@@ -97,7 +97,7 @@ Demonstrate string manipulation techniques in C++.
 ### Expected Output
 ```
 Full Name : Kuenzang Rabten
-Total Length : 16
+Total Length : 15
 Uppercase : KUENZANG RABTEN
 Lowercase : kuenzang rabten
 Initials : K.R.
@@ -132,7 +132,7 @@ Enter your age : 20
 Summary
 ----------------------------------------
 Name : Kuenzang Rabten
-Student No : 12230289
+Student No : 2230289
 Year of Birth : 2004
 Year at Age 100: 2104
 ```
@@ -163,10 +163,10 @@ Implement conditional logic for grade classification with input validation.
 
 ### Expected Output
 ```
-Enter mark: 72
+Enter mark: 70
 ----------------------------------------
 Student : Kuenzang Rabten (12230289)
-Mark : 72
+Mark : 70
 Grade : Merit
 Result : Congratulations, You have passed.
 ----------------------------------------
@@ -271,7 +271,7 @@ Index Mark Bar
 Highest : 90
 Lowest : 65
 Average : 78.00
-Above Average: 3 mark(s)
+Above Average: 2 
 ```
 
 ### Implementation
@@ -300,10 +300,10 @@ Create and use custom functions for modular programming.
  Function Results for Kuenzang Rabten
  Student No: 12230289
 ========================================
-digitSum(12230289) : 27
-isPrime(12230289) : No
-countVowels(Kuenzang Rabten) : 5
-reverseString(Kuenzang Rabten): netbaR gnazneuK
+digitSum: 27
+isPrime: No
+countVowels: 5
+reverseString: netbaR gnazneuK
 ========================================
 ```
 
@@ -396,7 +396,8 @@ File: `question10.cpp`
 
 ## Summary
 
-This practical exercise covers the following C++ programming concepts:
+This practical exercise covers the following C++ programming concepts while doing the practical:
+
 - Basic I/O operations and formatting
 - Arithmetic operations and type conversion
 - String manipulation and analysis
@@ -407,7 +408,6 @@ This practical exercise covers the following C++ programming concepts:
 - STL vectors and algorithms
 - Object-oriented programming with classes and encapsulation
 
-All programs were compiled using `g++` compiler and tested successfully.
 
 ### Compilation Commands
 ```bash
@@ -437,5 +437,4 @@ g++ question10.cpp -o question10
 ./question10
 ```
 
----
 
