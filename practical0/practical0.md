@@ -27,10 +27,11 @@
 Create a simple C++ program that displays formatted personal information.
 
 ### Requirements
-- Declare a string variable to store your full name
-- Declare an integer variable to store your student number
-- Use `cout` to print a formatted personal introduction on separate lines
-- Ensure all output is labelled clearly (e.g., Name:, Student No:)
+Complete the following:
+
+- Declare a "string" variable to hold your full name
+- Declare an "int" variable for your student number
+- Use "cout" to write out your own introduction in a nicely formatted style where each member of the introduction will be on a new line and have clear labels (e.g. "Name:Kuenzang Rabten"; "Student No.: 12230289").
 
 ### Expected Output
 ```
@@ -57,13 +58,12 @@ File: `question1.cpp`
 Perform various arithmetic operations on your student number.
 
 ### Requirements
-- Store your student number as an integer variable
-- Compute and display:
-  - The sum of all individual digits
-  - Whether the student number is odd or even
-  - The remainder when divided by 7
+- Save your student number as an integer type variable
+- Calculate and print:
+  - The individual sum of the digits
+  - If the student number is odd or even
+  - The division remainder of 7
   - The student number multiplied by 3
-- All results must be labelled and displayed on separate lines
 
 ### Expected Output
 ```
@@ -322,7 +322,7 @@ Demonstrate the use of C++ STL vector container and common algorithms.
 
 ### Requirements
 - Declare a `vector<int>` named using your student number (e.g., `v12230289`)
-- Populate it at runtime: prompt the user to enter 6 integer values
+- Run it at runtime: prompt the user to enter 6 integer values
 - Display the vector contents before and after sorting in ascending order
 - Using the STL, find and display the minimum, maximum, and sum
 - Remove all values below the average and display the final vector
